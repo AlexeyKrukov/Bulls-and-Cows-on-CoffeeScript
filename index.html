@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Bulls and Cows</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <h2 align = "center">Bulls and Cows</h2>
+        <p align = "center"><b>Здравствуйте! Новое число уже задумано! Играем!</b></p>
+        <p>Найдите число, задуманное компьютером.</p>
+        <form action="main.js" method = "post" name = "form_for_digit">
+            <label for = "digit"></label>
+            <input type = "text" name = "digit" placeholder="Число" id = "digit">
+            <input type="button" name = "button" value="Отправить" onclick="start(this.form)">
+        </form>
+    </body>
+</html>
